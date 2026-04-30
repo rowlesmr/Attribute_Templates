@@ -11,7 +11,7 @@ data_TEMPL_ATTR
     _dictionary.title            TEMPL_ATTR
     _dictionary.class            Template
     _dictionary.version          2.0.0
-    _dictionary.date             2026-01-23
+    _dictionary.date             2026-04-20
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Attribute_Templates/main/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
@@ -513,7 +513,7 @@ save_cartn_vector
     _definition.update            2021-07-21
     _description.text
 ;
-    The 3x1 translation that is used with _atom_sites_cartn_transform.matrix
+    The 3x1 translation that is used with _atom_sites_Cartn_transform.matrix
     to transform fractional coordinates in the ATOM_SITE category to Cartesian
     coordinates. The axial alignments of this transformation are described
     in _atom_sites_Cartn_transform.axes.
@@ -769,7 +769,7 @@ save_
 
 save_cromer_mann_coeff
 
-    _definition.update           2023-06-03
+    _definition.update           2026-04-20
     _description.text
 ;
     The set of data items used to define Cromer-Mann coefficients
@@ -789,13 +789,13 @@ save_cromer_mann_coeff
     _type.source                 Assigned
     _type.container              Single
     _type.contents               Real
-    _enumeration.def_index_id  '_atom_type.symbol'
+    _enumeration.def_index_ids   ['_atom_type.symbol']
      save_
 
 
 save_hi_ang_fox_coeffs
 
-    _definition.update           2023-06-03
+    _definition.update           2026-04-20
     _description.text
 ;
     The set of data items used to define Fox et al. coefficients
@@ -813,7 +813,7 @@ save_hi_ang_fox_coeffs
     _type.source                 Assigned
     _type.container              Single
     _type.contents               Real
-    _enumeration.def_index_id  '_atom_type.symbol'
+    _enumeration.def_index_ids   ['_atom_type.symbol']
      save_
 
 
@@ -915,7 +915,7 @@ save_orient_angle
     _description.text
 ;
      Diffractometer angle of a reflection measured at the centre of the
-     diffraction peak and used to determine _diffrn_orient_matrix.UBIJ.
+     diffraction peak and used to determine _diffrn_orient_matrix.UBij.
 ;
     _type.purpose                Measurand
     _type.source                 Recorded
@@ -1112,7 +1112,7 @@ save_display_colour
 
        Updated description of _site_symmetry.
 ;
-         2.0.0                    2026-01-23
+         2.0.0                    2026-04-20
 ;
        # Please update the date above and describe the change below until
        # ready for the next release
@@ -1150,5 +1150,7 @@ save_display_colour
        Corrected the definition of a* in save_aniso_bij and save_aniso_uij.
        [bm, after Nespolo, M. (2024). J. Appl. Cryst. 57, 1733-1746]
 
-       Remove 'restr_label' since it is fully replaced by 'atom_site_id'.
+       Removed 'restr_label' since it is fully replaced by 'atom_site_id'.
+
+       Switched from _enumeration.def_index_id to _enumeration.def_index_ids.
 ;
