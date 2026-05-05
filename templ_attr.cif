@@ -158,7 +158,7 @@ save_ms_index
     _description.text
 ;
      Additional Miller indices needed to write the reciprocal vector
-     in the definition of _diffrn_refln_index.m_list,
+     in the definition of _diffrn_refln.index_m_list,
      _diffrn_standard_refln.index_m_list, _exptl_crystal_face.index_m_list.
 ;
     _type.purpose                Number
