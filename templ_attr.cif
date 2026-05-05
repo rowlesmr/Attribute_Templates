@@ -623,7 +623,7 @@ save_aniso_bij
          T = exp{-1/4 sum~i~ [ sum~j~ (B^ij^ h~i~ h~j~ a*~i~ a*~j~) ] }
 
      h = the Miller indices
-     a* = the reciprocal-space cell lengths
+     a* = the reciprocals of the direct-space cell lengths
 
      The unique elements of the real symmetric matrix are entered by row.
 
@@ -721,7 +721,7 @@ save_aniso_uij
         T = exp{ -2π^2^ sum~i~ [ sum~j~ (U^ij^ h~i~ h~j~ a*~i~ a*~j~) ] }
 
      h = the Miller indices
-     a* = the reciprocal-space cell lengths
+     a* = the reciprocals of the direct-space cell lengths
 
      The unique elements of the real symmetric matrix are entered by row.
 
@@ -1146,6 +1146,9 @@ save_display_colour
        Updated description of _site_symmetry.
 
        Added reference to cartn_matrix and fract_matrix.
+
+       Corrected the definition of a* in save_aniso_bij and save_aniso_uij.
+       [bm, after Nespolo, M. (2024). J. Appl. Cryst. 57, 1733-1746]
 
        Removed 'restr_label' since it is fully replaced by 'atom_site_id'.
 
