@@ -1114,9 +1114,6 @@ save_display_colour
 ;
          2.0.0                    2026-04-20
 ;
-       # Please update the date above and describe the change below until
-       # ready for the next release
-
        Updated descriptions of cromer_mann_coeff and hi_ang_fox_coeffs.
 
        Added the default value of '1_555' to the 'site_symmetry' save frame.
