@@ -10,7 +10,7 @@ data_TEMPL_ATTR
 
     _dictionary.title            TEMPL_ATTR
     _dictionary.class            Template
-    _dictionary.version          2.0.0
+    _dictionary.version          2.0.1-dev
     _dictionary.date             2026-04-20
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Attribute_Templates/main/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
@@ -1150,4 +1150,9 @@ save_display_colour
        Removed 'restr_label' since it is fully replaced by 'atom_site_id'.
 
        Switched from _enumeration.def_index_id to _enumeration.def_index_ids.
+;
+         2.0.1-dev                2026-04-20
+;
+       # Please add changes below and update date above until ready to release
+       # next version.
 ;
