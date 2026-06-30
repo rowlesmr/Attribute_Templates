@@ -11,7 +11,7 @@ data_TEMPL_ATTR
     _dictionary.title            TEMPL_ATTR
     _dictionary.class            Template
     _dictionary.version          2.0.1-dev
-    _dictionary.date             2026-04-20
+    _dictionary.date             2026-06-30
     _dictionary.uri              https://raw.githubusercontent.com/COMCIFS/Attribute_Templates/main/templ_attr.cif
     _dictionary.ddl_conformance  4.2.0
     _description.text
@@ -861,11 +861,12 @@ save_transf_matrix
     _type.container              Single
     _type.contents               Real
     _units.code                  none
-     save_
+
+save_
 
 save_transf_matrix_id
 
-    _description.text                   
+    _description.text
 ;
       A numeric code identifying the transformation matrix that defines
       the arbitrary axes a1, a2 and a3 in terms of the crystallographic axes. 
@@ -876,7 +877,7 @@ save_transf_matrix_id
     _type.source                 Related
     _type.container              Single
     _type.contents               Integer
-    _enumeration.range           0:
+    _enumeration.range           1:
     _units.code                  none
 
 save_
@@ -1151,8 +1152,11 @@ save_display_colour
 
        Switched from _enumeration.def_index_id to _enumeration.def_index_ids.
 ;
-         2.0.1-dev                2026-04-20
+         2.0.1-dev                2026-06-30
 ;
        # Please add changes below and update date above until ready to release
        # next version.
+
+       Changed the lower enumeration range in the 'transf_matrix_id' save frame
+       from 0 to 1.
 ;
