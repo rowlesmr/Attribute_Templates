@@ -90,6 +90,24 @@ save_structure_id_key
     save_
 
 
+save_structure_id_key_no_linked
+
+    _definition.update            2026-07-08
+    _description.text
+;
+     The structure to which this data name relates.
+
+     If the data block defines a single value for _structure.id, or
+     _structure.id is missing and the data block contains a single
+     structure, this data name may be omitted.
+;
+    _type.purpose                 Link
+    _type.source                  Assigned
+    _type.container               Single
+    _type.contents                Word
+    save_
+
+
 save_rho_coeff
 
     _definition.update           2024-03-28
