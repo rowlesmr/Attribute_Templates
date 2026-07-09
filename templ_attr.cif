@@ -71,13 +71,13 @@ save_atom_site_id
      save_
 
 
-save_structure_id
+save_structure_id_key
 
     _definition.update            2026-07-08
     _description.text
 ;
      The structure to which this data name relates.
- 
+
      If the data block defines a single value for _structure.id, or
      _structure.id is missing and the data block contains a single
      structure, this data name may be omitted.
