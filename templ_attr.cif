@@ -180,6 +180,9 @@ save_matrix_w
     _description.text
 ;
      Element of the matrix W defined by van Smaalen (1991); (1995)
+
+     Smaalen, S. van (1991) Phys. Rev. B, 43, 11330-11341.
+     Smaalen, S. van (1995) Crystallogr. Rev. 4, 79-202.
 ;
     _type.purpose                Number
     _type.source                 Assigned
