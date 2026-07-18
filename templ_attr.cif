@@ -786,9 +786,10 @@ save_aniso_uij_su
 ;
      These are the standard uncertainty values (s.u.) for the standard
      form of the U^ij^ anisotropic atomic displacement components (see
-     aniso_UIJ). Because these values are _type.purpose Measurand, the
-     s.u. values may in practice be auto generated as part of the
-     U^ij^ calculation.
+     the linked data name for further details).
+
+     Because these values are _type.purpose Measurand, the s.u. values
+     may in practice be auto generated as part of the U^ij^ calculation.
 ;
     _type.purpose                SU
     _type.source                 Related
