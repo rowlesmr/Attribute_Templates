@@ -687,9 +687,10 @@ save_aniso_bij_su
 ;
      These are the standard uncertainty values (s.u.) for the standard
      form of the B^ij^ anisotropic atomic displacement components (see
-     aniso_BIJ). Because these values are _type.purpose Measurand, the
-     s.u. values may in practice be auto generated as part of the
-     B^ij^ calculation.
+     the linked data name for further details).
+
+     Because these values are _type.purpose Measurand, the s.u. values
+     may in practice be auto generated as part of the B^ij^ calculation.
 ;
     _type.purpose                SU
     _type.source                 Related
