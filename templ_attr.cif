@@ -688,12 +688,8 @@ save_aniso_bij_su
     _definition.update           2025-03-27
     _description.text
 ;
-     These are the standard uncertainty values (s.u.) for the standard
-     form of the B^ij^ anisotropic atomic displacement components (see
-     the linked data name for further details).
-
-     Because these values are _type.purpose Measurand, the s.u. values
-     may in practice be auto generated as part of the B^ij^ calculation.
+     Standard uncertainty of the indicated B^ij^ anisotropic atomic
+     displacement component.
 ;
     _type.purpose                SU
     _type.source                 Related
@@ -737,12 +733,8 @@ save_aniso_betaij_su
     _definition.update           2025-03-27
     _description.text
 ;
-     These are the standard uncertainty values (s.u.) for the standard
-     form of the β^ij^ anisotropic atomic displacement components (see
-     the linked data name for further details).
-
-     Because these values are _type.purpose Measurand, the s.u. values
-     may in practice be auto generated as part of the β^ij^ calculation.
+     Standard uncertainty of the indicated β^ij^ anisotropic atomic
+     displacement component.
 ;
     _type.purpose                SU
     _type.source                 Related
@@ -787,12 +779,8 @@ save_aniso_uij_su
     _definition.update           2025-03-27
     _description.text
 ;
-     These are the standard uncertainty values (s.u.) for the standard
-     form of the U^ij^ anisotropic atomic displacement components (see
-     the linked data name for further details).
-
-     Because these values are _type.purpose Measurand, the s.u. values
-     may in practice be auto generated as part of the U^ij^ calculation.
+     Standard uncertainty of the indicated U^ij^ anisotropic atomic
+     displacement component.
 ;
     _type.purpose                SU
     _type.source                 Related
